@@ -1,0 +1,17 @@
+def prime(i):
+    count=0
+    a=int(input())
+    b=int(input())
+    for k in range(a,b):
+        if k%j==0:
+            count=count*1
+        else:
+            count=count+1
+    return count
+n=int(input())
+i=1
+while i<=n:
+    c=prime(i)
+    print(c)
+    i=i+1
+    
